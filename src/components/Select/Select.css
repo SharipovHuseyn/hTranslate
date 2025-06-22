@@ -1,0 +1,9 @@
+select{
+    background-color: rgba(61, 61, 61, 0.708);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6e6e6e;
+    outline: none;
+    margin-bottom: 20px;
+}
