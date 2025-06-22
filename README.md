@@ -1,12 +1,38 @@
-# React + Vite
+# React Переводчик
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
+[![API](https://img.shields.io/badge/API-MyMemory%20Translate-green)](https://mymemory.translated.net/)
 
-Currently, two official plugins are available:
+Приложение-переводчик, использующее MyMemory Translation API с возможностью выбора языков и мгновенным переводом по мере ввода.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Особенности
 
-## Expanding the ESLint configuration
+- ⚡ Мгновенный перевод с debounce-оптимизацией
+- 🔄 Обмен языков местами одним кликом
+- 📱 Адаптивный интерфейс
+- 🛠 Простая интеграция с другими проектами
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Технологии
+
+- React 18
+- Fetch API
+- CSS Modules
+- MyMemory Translation API
+
+## Установка
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/ваш-username/react-translator.git
+```
+
+## Структура проекта
+```plaintext
+/src
+|-- /components
+|   |-- Input
+|   |-- Select
+|   |-- Swap
+|-- lang.js
+|-- App.jsx
+|-- main.jsx
